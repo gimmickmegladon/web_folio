@@ -3,10 +3,10 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-
+import ProjectImg from '../Image/ProjectImg';
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta } = hero;
+  const { img, title, name, subtitle, cta } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -29,7 +29,7 @@ const Header = () => {
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Nikolay Valkov'}</span>
             <br />
-            {subtitle || "Budding Developer."}
+            {subtitle || 'Budding Developer.'}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
@@ -41,6 +41,9 @@ const Header = () => {
             </span>
           </p>
         </Fade>
+        <div className="project-wrapper__image">
+          <ProjectImg alt="profile picture" filename={img} />
+        </div>
       </Container>
     </section>
   );

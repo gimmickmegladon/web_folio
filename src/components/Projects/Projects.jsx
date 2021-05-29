@@ -41,12 +41,9 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Music Production App'}</h3>
+                      <h3 className="project-wrapper__text-title">{title || 'Project Name'}</h3>
                       <div>
-                        <p>
-                          {info ||
-                            'For my dissertation project I chose to make an application teaching beginners in music production basic concepts such as repetition and layering.   '}
-                        </p>
+                        <p>{info || 'Lorem Ipsum'}</p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       <a
@@ -81,7 +78,7 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || '#!'}
+                        //href={url || '#!'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"

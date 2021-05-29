@@ -39,14 +39,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'I\'m 22, tech-oriented and I love creating things and solving problems. I just finished my BSc Comptuer Science at the University of Strathclyde, Glasgow. During my time there I have gained invaluable experience in various fields accross software development:'}
+                    "I'm 22, tech-oriented and I love creating things and solving problems. I just finished my BSc Comptuer Science at the University of Strathclyde, Glasgow. During my time there I have gained invaluable experience in various fields accross software development:"}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'From low level bit-logic, algorithms, web-dev and basics of assemby to modern languages like Python, Java and C++ across multiple platforms, I\'ve grown accustomed to learning and applying new technologies/skills in the field for various projects. In addition I\'ve also had to work in group development projects where collaboration, communication, and teamwork were require. '}
+                    "From low level bit-logic, algorithms, web-dev and basics of assemby to modern languages like Python, Java and C++ across multiple platforms, I've grown accustomed to learning and applying new technologies/skills in the field for various projects. In addition I've also had to work in group development projects where collaboration, communication, and teamwork were require. "}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'I\'m looking for experience in a varied work-environment to improve upon my skills and gain new ones.'}
+                  {paragraphThree ||
+                    "I'm looking for experience in a varied work-environment to improve upon my skills and gain new ones."}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
