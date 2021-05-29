@@ -61,7 +61,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'brickbreaker.PNG',
+    img: 'ordersystem.PNG',
     title: 'Art Store',
     info: 'Web based art listing and ordering system',
     info2: 'Mostly HTML and PHP',
