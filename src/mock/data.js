@@ -65,18 +65,9 @@ export const projectsData = [
     title: 'Art Store',
     info: 'Web based art listing and ordering system',
     info2: 'Mostly HTML and PHP',
-    url: 'https://devweb2019.cis.strath.ac.uk/~cmb17180/317_a2/',
+    url: 'https://devweb2019.cis.strath.ac.uk/~cmb17180/art_store/listart.php',
     repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'brickbreaker.PNG',
-    title: 'BrickBreaker',
-    info: 'Web based Brick Breaker game made to be played on mobile with tilt controls',
-    info2: 'Made with JavaScript and a little HTML',
-    url: 'https://devweb2019.cis.strath.ac.uk/~cmb17180/317_a2/',
-    repo: '', // if no repo, the button will not show up
-  },
+  }
 ];
 
 // CONTACT DATA
