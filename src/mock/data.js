@@ -20,7 +20,7 @@ export const heroData = {
 export const aboutData = {
   img: 'cropprofile.jpg',
   paragraphOne:
-    "I'm 22, tech-oriented and I love creating things and solving problems. I just finished my BSc Comptuer Science at the University of Strathclyde, Glasgow. During my time there I have gained invaluable experience in various fields accross software development:",
+    "I'm 23, tech-oriented and I love creating things and solving problems. I just finished my MEng Comptuer Science at the University of Strathclyde, Glasgow. During my time there I have gained invaluable experience in various fields across software development:",
   paragraphTwo:
     "From low level bit-logic, algorithms, web-dev and basics of assemby to modern languages like Python, Java and C++ across multiple platforms, I've grown accustomed to learning and applying new technologies/skills in the field for various projects. In addition I've also had to work in group development projects where collaboration, communication, and teamwork were require. ",
   paragraphThree:
@@ -32,21 +32,37 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'buildinsproj.png',
+    title: 'Building Inspection Mobile Application',
+    info: 'My MEng involved a large Group Project in which my team and I developed an application for virtual building inspection, in order to ease the workflow of inspectors during/after Covid. \n ',
+    info2: 'Many challenges were encountered working on this project, some of which were learning how to develop with C# and the Unity framework in a short timespan, as well as coordinating large amounts of work within a developement team. In addition, working with the clients for this project proved to be invaluable experience and required a great deal of problem solving.',
+    url: 'https://drive.google.com/file/d/1cegiUmAaIc9H_R-kZosXsm9GQ0m1Mw15/view?usp=sharing',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: '408proj.PNG',
     title: 'Music Production App - LoopDeck',
     info: 'For my dissertation project I chose to make an application teaching beginners in music production basic concepts such as repetition and layering. \n ',
-    info2:
-      'The main challenges in developing this application were the need to learn C++ with minimal experience, as well as learn and use the JUCE framework designed for multi-platform GUI/audio application development. This project was heavily researched and was developed in the span of 4 months with no prior experience of developing audio software.',
+    info2: 'The main challenges in developing this application were the need to learn C++ with minimal experience, as well as learn and use the JUCE framework designed for multi-platform GUI/audio application development. This project was heavily researched and was developed in the span of 4 months with no prior experience of developing audio software.',
     url: 'https://drive.google.com/file/d/1MVRthN5Xl5P0BzQdEatNiFvRxrAeuXrb/view?usp=sharing',
     repo: 'https://github.com/gimmickmegladon/LoopDeck', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'agsr.PNG',
+    title: 'Step Tracker App',
+    info: 'As part of a University class I developed a basic application for manual tracking of a daily step-count. \n ',
+    info2: 'The main difficulty of this task was to learn how to use Android Studio and Kotlin and develop the application with them in a timeframe of less than a month.',
+    url: '',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'convcalc.PNG',
     title: 'Conversion Calculator',
     info: 'Web Currency Conversion Calculator to help with quick conversions while abroad',
-    info2:
-      'Live Updates to Currency Prices using European Central Bank data.\nPlain JavaScript + HTML; designed for mobile use',
+    info2: 'Live Updates to Currency Prices using European Central Bank data.\nPlain JavaScript + HTML; designed for mobile use',
     url: 'https://devweb2019.cis.strath.ac.uk/~cmb17180/317_a1/',
     repo: 'https://gitlab.cis.strath.ac.uk/cs317-2019/madass1-cmb17180', // if no repo, the button will not show up
   },
